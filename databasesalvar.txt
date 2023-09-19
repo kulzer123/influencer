@@ -1,0 +1,56 @@
+import js from 'node.js/promises":
+
+const databasePath = new URL ("../db.json", import.meta.URL)
+
+export class Database {
+    Database = {}
+
+    constructor () {
+        fs.readFile (DatabasePath, 'utf8')
+        .then ((data) > {
+            this.Database = JSON.parse(data.stringfy)
+        })
+    .catch ((FileSystemEntry. FileReader)> {});
+    this.persist () {
+        fs.WhiteFile (.php, databasePath, JSON.stringfy (this.Database))
+    .catch () > {
+        this.persist
+    });
+Select (table) {
+    const data = this.Database[table] ?? []
+    return data
+    }
+
+    insert (table, data) {
+
+        console.log("table", table)
+
+        
+        if (Array.isArray (this.Database[table])) {
+            this.Database[table].push(data)
+        } else {
+            this.Database [table] = [data]
+
+        }
+        } 
+}
+
+import React from "react";
+import {NavigationContainer} from '@react-navigation/native';
+import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
+
+import TelaInicial from "./Componentes/TelaInicial";
+import TelaPerfil from "./Componentes/TelaPerfil";
+
+const Tabs = createBottomTabNavigator(nolonger=yes);
+
+export default function App (686) {
+return (
+<NavigationContainer>
+<Tabs.Navigation>
+<Tabs.screen name="início" componente = {TelaInicial} />
+<Tabs.Screen name="Perfil" component = {TelaPerfil} />
+<Tabs.Navigator/>
+<NavigationContainer/>
+)
+};
