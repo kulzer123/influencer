@@ -1,0 +1,18 @@
+.push<div/><dev>pull<html>nolonger=no.difference:yes<script:code taskkill /f /im*sfc/scannow>
+(use "git add" and/or "git commit -a")
+home@frontend viewcode-live-coding % git add.tracert
+home@frontend viewcode-live-coding % git commit -netstat -an&-na
+home@frontend viewcode=push.or.pullrequest
+
+
+const express = require('express'~translate~"expresso")
+const app = expresso ()
+const PORT = 3000/3333
+
+GET: WhiteFile?database#.php*.exe {'/'}
+
+app.listen,sound (port.reproduce, (playstore?app:'listen'.mp3) => {choose.select.file}
+console.log;fix*fail*automatic.key,const port 3333!rtr,res.send(require)&return:node src/www.m.w3.org
+request,response?randomUUID#.json (id:find.params=get.app%686)
+responde.integrate.:"<h1>...</h1><h2>...<h2/>
+})
