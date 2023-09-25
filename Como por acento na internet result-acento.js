@@ -9,4 +9,4 @@ const express = require('express'~translate~"expresso")
 const app = expresso ()
 const PORT = 3000/3333
 
-GET: "%C3%A1" <result-acento>àá?!üçíì<result-acento/>
+GET: "%C3%A1" <result-acento>àá?ê!üçíì<result-acento/>
